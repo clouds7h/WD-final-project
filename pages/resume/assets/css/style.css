@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f0f0f0;
+  font-size: 16px; /* Increased base font size for better readability */
+  line-height: 1.6; /* Improved line height for better spacing */
+  color: #777; /* Changed text color to white */
+}
+
+.container .hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; /* Adjusted height */
+  width: 100%;
+  background-color: #e0e0e0; /* Changed background color */
+  padding: 0 20px;
+}
+
+.hero nav .logo {
+  width: 40px; /* Increased logo size */
+  fill: #fff; /* Changed logo color to white */
+}
+
+.hero nav .nav-links a {
+  color: #333333;
+  margin-left: 20px; /* Adjusted margin */
+  text-transform: uppercase;
+  text-decoration: none; /* Removed underline */
+  transition: color 0.3s;
+}
+
+.hero nav .nav-links a:hover,
+.hero nav .nav-links a.active {
+  color: #3498db; /* Changed hover and active color */
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #555; /* Darkened text color */
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+  color: #777; /* Adjusted color */
+}
+
+.resume {
+  width: 100%;
+  max-width: 1200px; /* Adjusted max width */
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between; /* Added space between columns */
+}
+
+.resume .resume_left {
+  flex: 1; /* Made left column flexible */
+  background: #f2f2f2; /* Changed background color to light gray */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.resume .resume_left .resume_profile {
+    width: 300px;
+    height: 300px; /* Ensure a square aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.resume .resume_left .resume_profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    display: block; /* Ensure the image behaves properly as a block element */
+  
+}
+
+.resume .resume_left .resume_content {
+  padding: 25px 0;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+  color: #333; /* Darkened text color */
+}
+
+.resume .resume_left .regular {
+  color: #666; /* Adjusted color */
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 1px solid #ddd; /* Lightened border */
+}
+
+.resume .resume_item:last-child {
+  border-bottom: none; /* Removed border from last item */
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resume .resume_left ul li .icon {
+  width: 35px;
+  height: 35px;
+  background: #555; /* Changed icon background to dark gray */
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.resume .resume_left ul li .data {
+  color: #777; /* Adjusted color */
+}
+
+.resume .resume_left .resume_skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #777; /* Adjusted color */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 60%;
+  height: 8px; /* Increased height */
+  background: #ccc; /* Light gray background */
+  border-radius: 5px;
+  position: relative;
+}
+
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #555; /* Dark gray progress bar */
+  border-radius: 5px;
+}
+
+.resume .resume_right {
+  flex: 1; /* Made right column flexible */
+  background: #f2f2f2; /* Changed background color to light gray */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.resume .resume_right .bold {
+  color: #777; /* Blue color */
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px; /* Adjusted margin */
+  color: #555; /* Darkened text color */
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 15px; /* Adjusted margin */
+  color: #777; /* Adjusted color */
+}
+
+.resume .resume_right .resume_awards ul li:before,
+.resume .resume_right .resume_education ul li:before,
+.resume .resume_right .resume_organizations ul li:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  width: 8px; /* Increased width */
+  height: 8px; /* Increased height */
+  border-radius: 50%;
+  background: #555; /* Blue color */
+}
+
+.resume .resume_right .resume_awards ul li:after,
+.resume .resume_right .resume_education ul li:after,
+.resume .resume_right .resume_organizations ul li:after {
+  content: "";
+  position: absolute;
+  top: 18px; /* Adjusted position */
+  left: -16px; /* Adjusted position */
+  width: 2px;
+  height: calc(100% - 18px); /* Adjusted height */
+  background: #555; /* Blue color */
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 60px; /* Adjusted width */
+  height: 60px; /* Adjusted height */
+  background: #555; /* Dark gray background */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 24px; /* Adjusted font size */
+  color: #777; /* White color */
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  width: 25px; /* Adjusted width */
+  height: 2px;
+  background: #555; /* Dark gray color */
+  transform: translateY(-50%);
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none; /* Removed last child separator */
+}
