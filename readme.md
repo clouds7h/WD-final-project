@@ -209,6 +209,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-------|---------|------|
 | Font Awesome | Icons used | https://fontawesome.com/v5/search |
-| Tarjetas Giratorias (flip card) | HTML y CSS | I used this for the flip cards on my showcase. | https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s](https://www.youtube.com/watch?v=A9qWuXcMBNw](https://www.youtube.com/watch?v=Y1NSVRkQEVI |
+| Tarjetas Giratorias (flip card) | I used this for the flip cards on my showcase. | https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s](https://www.youtube.com/watch?v=A9qWuXcMBNw](https://www.youtube.com/watch?v=Y1NSVRkQEVI |
 | Hover.css | This is where I got my hover effects | https://ianlunn.github.io/Hover/ |
 
