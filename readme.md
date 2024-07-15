@@ -48,6 +48,12 @@
       <a href="#file-structure-explanation">File Structure Explanation</a>
     </li>
     <li>
+      <a href="#deployment-instructions">Deployment Instructions</a>
+    </li>
+    <li>
+      <a href="projects-and-repositories"></a>
+    </li>
+    <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
@@ -81,9 +87,9 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-### File Structure Explanation
+
+## File Structure Explanation
 - All html codes are contained in the index.html
 - All CSS codes are contained in the style.css
 - The assets folder contains 3 different folders namely, css, img, js. css contains the style.css. img contains all images used. js contanins the script.js.
@@ -138,8 +144,27 @@ WD-final-project
 └─ index.html
 └─ readme.md
 ```
- <!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+## Deployment Instructions
+
+To deploy this website using GitHub Actions:
+
+1. Fork this repository and clone it to your local machine.
+2. Navigate to the repository's root directory.
+3. Open the terminal and run the following commands:
+   
+git pull origin main
+git push origin main
+
+markdown
+Copy code
+
+4. Your website will be automatically deployed using GitHub Actions.
+
+## Links
+
+- **Website:** [Resume](https://clouds7h.github.io/WD-HERNANDEZ/)
+- **GitHub Repository:** [Seatwork 0002]([https://github.com/your-username/your-repo](https://github.com/clouds7h/WD-HERNANDEZ.git)
+ 
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
