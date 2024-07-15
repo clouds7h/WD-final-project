@@ -51,7 +51,7 @@
       <a href="#deployment-instructions">Deployment Instructions</a>
     </li>
     <li>
-      <a href="projects-and-repositories"></a>
+      <a href="#websites-and-repositories">Repositries</a>
     </li>
     <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
@@ -160,10 +160,12 @@ Copy code
 
 4. Your website will be automatically deployed using GitHub Actions.
 
-## Links
+## Websites and Repositories 
 
-- **Website:** [Resume](https://clouds7h.github.io/WD-HERNANDEZ/)
-- **GitHub Repository:** [Seatwork 0002]([https://github.com/your-username/your-repo](https://github.com/clouds7h/WD-HERNANDEZ.git)
+| Title | Website | Repository |
+|Seatwork 0002|https://clouds7h.github.io/WD-HERNANDEZ/|https://github.com/clouds7h/WD-HERNANDEZ.git|
+| Seatwork 0003 | https://clouds7h.github.io/WD-Headers-Footers/ | https://github.com/clouds7h/WD-Headers-Footers.git |
+| Seatwork 0004 | https://clouds7h.github.io/WD-SW4/ | https://github.com/clouds7h/WD-SW4.git |
  
 
 ## Rules, Practices and Principles
@@ -204,5 +206,7 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Font Awesome|Icons used|https://fontawesome.com/v5/search|
+| Tarjetas Giratorias (flip card) | HTML y CSS | I used this for the flip cards on my showcase. | https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s](https://www.youtube.com/watch?v=A9qWuXcMBNw](https://www.youtube.com/watch?v=Y1NSVRkQEVI |
+| Hover.css | This is where I got my hover effects | https://ianlunn.github.io/Hover/ |
+
