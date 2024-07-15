@@ -82,54 +82,60 @@ Guiding Question:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ### File Structure Explanation
+- All html codes are contained in the index.html
+- All CSS codes are contained in the style.css
+- The assets folder contains 3 different folders namely, css, img, js. css contains the style.css. img contains all images used. js contanins the script.js.
+- Each page has a named after it which contains the assets (css, img, js) as well as the HTML file.
+
 ```
 WD-final-project
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ contact-us
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ my-projects
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ photoshop
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ resume
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  ├─ img
+│  │  └─ fileWith.jpeg/.jpg/.webp/.png
+│  └─ js
+│     └─ script.js
+├─ pages
+│  ├─ contact-us
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  └─ fileWith.jpeg/.jpg/.webp/.png
+│  │  │  └─ js
+│  │  │     └─ script.js
+│  │  └─ index.html
+│  ├─ my-projects
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  └─ fileWith.jpeg/.jpg/.webp/.png
+│  │  │  └─ js
+│  │  │     └─ script.js
+│  │  └─ index.html
+│  ├─ photoshop
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  └─ fileWith.jpeg/.jpg/.webp/.png
+│  │  │  └─ js
+│  │  │     └─ script.js
+│  │  └─ index.html
+│  ├─ resume
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  └─ fileWith.jpeg/.jpg/.webp/.png
+│  │  │  └─ js
+│  │  │     └─ script.js
+│  │  └─ index.html
 └─ index.html
 └─ readme.md
+
 ```
 
 
