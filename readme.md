@@ -48,6 +48,12 @@
       <a href="#file-structure-explanation">File Structure Explanation</a>
     </li>
     <li>
+      <a href="#deployment-instructions">Deployment Instructions</a>
+    </li>
+    <li>
+      <a href="#websites-and-repositories">Repositries</a>
+    </li>
+    <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
@@ -81,9 +87,9 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-### File Structure Explanation
+
+## File Structure Explanation
 - All html codes are contained in the index.html
 - All CSS codes are contained in the style.css
 - The assets folder contains 3 different folders namely, css, img, js. css contains the style.css. img contains all images used. js contanins the script.js.
@@ -137,8 +143,32 @@ WD-final-project
 │  │  └─ index.html
 └─ index.html
 └─ readme.md
-
 ```
+## Deployment Instructions
+
+To deploy this website using GitHub Actions:
+
+1. Fork this repository and clone it to your local machine.
+2. Navigate to the repository's root directory.
+3. Open the terminal and run the following commands:
+   
+git pull origin main
+git push origin main
+
+markdown
+Copy code
+
+4. Your website will be automatically deployed using GitHub Actions.
+
+## Websites and Repositories 
+
+| Title | Website | Repository |
+|-------|---------|------|
+| Seatwork 0002 | https://clouds7h.github.io/WD-HERNANDEZ/ | https://github.com/clouds7h/WD-HERNANDEZ.git |
+| Seatwork 0003 | https://clouds7h.github.io/WD-Headers-Footers/ | https://github.com/clouds7h/WD-Headers-Footers.git |
+| Seatwork 0004 | https://clouds7h.github.io/WD-SW4/ | https://github.com/clouds7h/WD-SW4.git |
+ 
+
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
@@ -177,5 +207,8 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|-------|---------|------|
+| Font Awesome | Icons used | https://fontawesome.com/v5/search |
+| Tarjetas Giratorias (flip card) | I used this for the flip cards on my showcase. | https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s](https://www.youtube.com/watch?v=A9qWuXcMBNw](https://www.youtube.com/watch?v=Y1NSVRkQEVI |
+| Hover.css | This is where I got my hover effects | https://ianlunn.github.io/Hover/ |
+
