@@ -9,18 +9,20 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Personal Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project aims to showcase our design skills by creating a website containing 5 different pages each with unique designs and functionality.
+  This project has a home page that contains a little info about me as well as a navigation bar that would take  you to the other pages. It also has a
+  page for resume, a gallery of my past IT0004 works, a showcase of my previous projects, and lastly a page where my contact information is stored.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=clouds7h/WD-final-project)
 
 ---
 
@@ -60,17 +62,18 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project: This project is a Personal Website. The goal is to create a website with 5 distinct pages. For my Personal Website, I added 5 different pages. I labeled the first page as my homepage. This contains a brief information about me as well as a photo. I also added a navbar across all pages in order to navigate easily across the different pages. As for the second page, I opted to create a page solely dedicated for my Resume. This contains details such as my academic background as well as the skillset that I currently have. The third page contains a showcase of my previous projects in this subject. It contains three cards that would direct you to the deployed websites when clicked. For the fourth page is a gallery of images rendered as part of my submission for my IT004. To showcase the images, I opted to place them in a rotating gallery. Lastly, the contact page. This page contains may contact information such as phone number and email addresses as well. I also placed my Home Adress as well as a clickable-icon that would lead to my social media accounts.
+- Whats the purpose: The purpose of this project is to show and demonstrate the design skills and the amount of web development knoweledge that we have acquired. It will also serve as our portfolio. 
+- What are key components: As for the key components, it is a must to have at least 5 distinct pages. A resume-like information is a must as well and lastly a showcase containing the past works that you did. 
+- What technology used and how it is used: For this project I utilized the use of HTML and CSS. I used no JS for this one. 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- 5 Distint Pages
+- Resume-like information
+- Project Showcase
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,7 +93,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-final-project
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -99,7 +102,34 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ contact-us
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ my-projects
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ photoshop
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+└─ resume
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
