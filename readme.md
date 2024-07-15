@@ -137,8 +137,10 @@ WD-final-project
 │  │  └─ index.html
 └─ index.html
 └─ readme.md
-
 ```
+ <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
