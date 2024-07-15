@@ -10,9 +10,9 @@
 
 body {
   background: #f0f0f0;
-  font-size: 16px; /* Increased base font size for better readability */
-  line-height: 1.6; /* Improved line height for better spacing */
-  color: #777; /* Changed text color to white */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #777;
 }
 
 .container .hero {
@@ -24,73 +24,72 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px; /* Adjusted height */
+  height: 60px;
   width: 100%;
-  background-color: #e0e0e0; /* Changed background color */
+  background-color: #e0e0e0;
   padding: 0 20px;
 }
 
 .hero nav .logo {
-  width: 40px; /* Increased logo size */
-  fill: #fff; /* Changed logo color to white */
+  width: 40px;
+  fill: #fff;
 }
 
 .hero nav .nav-links a {
   color: #333333;
-  margin-left: 20px; /* Adjusted margin */
+  margin-left: 20px;
   text-transform: uppercase;
-  text-decoration: none; /* Removed underline */
+  text-decoration: none;
   transition: color 0.3s;
 }
 
 .hero nav .nav-links a:hover,
 .hero nav .nav-links a.active {
-  color: #3498db; /* Changed hover and active color */
+  color: #3498db;
 }
 
 .bold {
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
-  color: #555; /* Darkened text color */
+  color: #555;
 }
 
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
-  color: #777; /* Adjusted color */
+  color: #777;
 }
 
 .resume {
   width: 100%;
-  max-width: 1200px; /* Adjusted max width */
+  max-width: 1200px;
   margin: 50px auto;
   display: flex;
-  justify-content: space-between; /* Added space between columns */
+  justify-content: space-between;
 }
 
 .resume .resume_left {
-  flex: 1; /* Made left column flexible */
-  background: #f2f2f2; /* Changed background color to light gray */
+  flex: 1;
+  background: #f2f2f2;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resume .resume_left .resume_profile {
-    width: 300px;
-    height: 300px; /* Ensure a square aspect ratio */
-    border-radius: 50%; /* Make it circular */
-    overflow: hidden;
-    margin: 0 auto; /* Center horizontally */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .resume .resume_left .resume_profile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover entire container */
-    display: block; /* Ensure the image behaves properly as a block element */
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .resume .resume_left .resume_content {
@@ -102,20 +101,20 @@ body {
 }
 
 .resume .resume_left .bold {
-  color: #555; /* Darkened text color */
+  color: #555;
 }
 
 .resume .resume_left .regular {
-  color: #777; /* Adjusted color */
+  color: #777;
 }
 
 .resume .resume_item {
   padding: 25px 0;
-  border-bottom: 1px solid #ddd; /* Lightened border */
+  border-bottom: 1px solid #ddd;
 }
 
 .resume .resume_item:last-child {
-  border-bottom: none; /* Removed border from last item */
+  border-bottom: none;
 }
 
 .resume .resume_left ul li {
@@ -127,7 +126,7 @@ body {
 .resume .resume_left ul li .icon {
   width: 35px;
   height: 35px;
-  background: #555; /* Changed icon background to dark gray */
+  background: #555;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -137,13 +136,13 @@ body {
 }
 
 .resume .resume_left ul li .data {
-  color: #777; /* Adjusted color */
+  color: #777;
 }
 
 .resume .resume_left .resume_skills ul li {
   display: flex;
   margin-bottom: 10px;
-  color: #777; /* Adjusted color */
+  color: #777;
   justify-content: space-between;
   align-items: center;
 }
@@ -154,8 +153,8 @@ body {
 
 .resume .resume_left .resume_skills ul li .skill_progress {
   width: 60%;
-  height: 8px; /* Increased height */
-  background: #ccc; /* Light gray background */
+  height: 8px;
+  background: #ccc;
   border-radius: 5px;
   position: relative;
 }
@@ -165,20 +164,20 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #555; /* Dark gray progress bar */
+  background: #555;
   border-radius: 5px;
 }
 
 .resume .resume_right {
-  flex: 1; /* Made right column flexible */
-  background: #f2f2f2; /* Changed background color to light gray */
+  flex: 1;
+  background: #f2f2f2;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .resume .resume_right .bold {
-  color: #777; /* Blue color */
+  color: #777;
 }
 
 .resume .resume_right ul li {
@@ -188,13 +187,13 @@ body {
 .resume .resume_right ul li .date {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 5px; /* Adjusted margin */
-  color: #555; /* Darkened text color */
+  margin-bottom: 5px;
+  color: #555;
 }
 
 .resume .resume_right ul li .info {
-  margin-bottom: 15px; /* Adjusted margin */
-  color: #777; /* Adjusted color */
+  margin-bottom: 15px;
+  color: #777;
 }
 
 .resume .resume_right .resume_awards ul li:before,
@@ -204,10 +203,10 @@ body {
   position: absolute;
   top: 10px;
   left: -20px;
-  width: 8px; /* Increased width */
-  height: 8px; /* Increased height */
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: #555; /* Blue color */
+  background: #555;
 }
 
 .resume .resume_right .resume_awards ul li:after,
@@ -215,17 +214,17 @@ body {
 .resume .resume_right .resume_organizations ul li:after {
   content: "";
   position: absolute;
-  top: 18px; /* Adjusted position */
-  left: -16px; /* Adjusted position */
+  top: 18px;
+  left: -16px;
   width: 2px;
-  height: calc(100% - 18px); /* Adjusted height */
-  background: #555; /* Blue color */
+  height: calc(100% - 18px);
+  background: #555;
 }
 
 .resume .resume_right .resume_hobby ul li {
-  width: 60px; /* Adjusted width */
-  height: 60px; /* Adjusted height */
-  background: #555; /* Dark gray background */
+  width: 60px;
+  height: 60px;
+  background: #555;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -233,8 +232,8 @@ body {
 }
 
 .resume .resume_right .resume_hobby ul li i {
-  font-size: 24px; /* Adjusted font size */
-  color: #777; /* White color */
+  font-size: 24px;
+  color: #777;
 }
 
 .resume .resume_right .resume_hobby ul li:before {
@@ -242,12 +241,12 @@ body {
   position: absolute;
   top: 50%;
   right: -30px;
-  width: 25px; /* Adjusted width */
+  width: 25px;
   height: 2px;
-  background: #555; /* Dark gray color */
+  background: #555;
   transform: translateY(-50%);
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
-  display: none; /* Removed last child separator */
+  display: none;
 }

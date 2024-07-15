@@ -18,11 +18,11 @@ body{
 }
 
 .container .hero {
-  position: fixed; /* Fixed positioning */
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* Take up full width */
-  z-index: 1000; /* Ensures nav stays on top */
+  width: 100%; 
+  z-index: 1000; 
 }
 
 .hero nav {
@@ -30,53 +30,53 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px; /* Adjusted height */
+  height: 60px; 
   width: 100%;
-  background-color: #e0e0e0; /* Changed background color */
+  background-color: #e0e0e0; 
   padding: 0 20px;
 }
 
 .hero nav .logo {
-  width: 40px; /* Increased logo size */
-  fill: #fff; /* Changed logo color to white */
+  width: 40px; 
+  fill: #fff; 
 }
 
 .hero nav .nav-links {
-  flex: 1; /* Takes up remaining space */
+  flex: 1; 
   display: flex;
-  justify-content: flex-end; /* Adjust alignment as needed */
+  justify-content: flex-end; 
 }
 
 .hero nav .nav-links a {
   color: #333333;
-  margin-left: 20px; /* Adjusted margin */
+  margin-left: 20px; 
   text-transform: uppercase;
-  text-decoration: none; /* Removed underline */
+  text-decoration: none; 
   transition: color 0.3s;
 }
 
 .hero nav .nav-links a:hover,
 .hero nav .nav-links a.active {
-  color: #3498db; /* Changed hover and active color */
+  color: #3498db; 
 }
 
 .title-block {
-  text-align: center; /* Center align text */
-  margin-top: 80px; /* Adjust margin top as needed */
+  text-align: center; 
+  margin-top: 80px; 
 }
 
 .title-block h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem; /* Adjust font size */
-  color: #333333; /* Text color */
-  margin-bottom: 16px; /* Adjust bottom margin */
+  font-size: 2.5rem; 
+  color: #333333; 
+  margin-bottom: 16px; 
 }
 
 .title-block p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem; /* Adjust font size */
-  color: #666666; /* Text color */
-  line-height: 1.5; /* Adjust line height */
+  font-size: 1rem; 
+  color: #666666; 
+  line-height: 1.5; 
 }
 .gallery{
   position:relative;
