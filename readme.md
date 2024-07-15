@@ -45,6 +45,9 @@
       </ol>
     </li>
     <li>
+      <a href="#file-structure-explanation">File Structure Explanation</a>
+    </li>
+    <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
@@ -69,7 +72,6 @@ Guiding Question:
 
 ### Key Components
 <!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website
 - 5 Distint Pages
 - Resume-like information
@@ -137,8 +139,6 @@ WD-final-project
 └─ readme.md
 
 ```
-
-
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
