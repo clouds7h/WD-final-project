@@ -54,10 +54,13 @@
       <a href="#websites-and-repositories">Repositries</a>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
+    </li>
+    <li>
+      <a href="#wakatime">WakaTime</a>
     </li>
   </ol>
 </details>
@@ -210,4 +213,23 @@ WD-ProjectName
 | Font Awesome | Icons used | https://fontawesome.com/v5/search |
 | Tarjetas Giratorias (flip card) | I used this for the flip cards on my showcase. | https://www.youtube.com/watch?v=qOO6lVMhmGc&t=103s](https://www.youtube.com/watch?v=A9qWuXcMBNw](https://www.youtube.com/watch?v=Y1NSVRkQEVI |
 | Hover.css | This is where I got my hover effects | https://ianlunn.github.io/Hover/ |
+
+
+## WakaTime
+<div align="center" float="left">
+  <p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=clouds7h&show_icons=true&theme=dark" alt="clouds7h" width=400 />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clouds7h&layout=compact&theme=dark" alt="clouds7h" width=310 />
+  </p>
+  <p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=clouds7h&theme=radical&hide_border=false" alt="clouds7h" width=430 />
+    <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=clouds7h&theme=tokyonight&utcOffset=+08" alt="clouds7h" width=310 />
+  </p>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=clouds7h&theme=tokyonight" alt="clouds7h" style="max-width: 100%;border: 1px solid white;border-radius: 6px;" width=600></img>
+
+  <br/>
+  
+</div>
+
+
 
